@@ -5,28 +5,27 @@
 [![GitHub Issues](https://img.shields.io/github/issues/deanfraj/PTP_Dimmer)](https://github.com/deanfraj/PTP_Dimmer/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/deanfraj/PTP_Dimmer)](https://github.com/deanfraj/PTP_Dimmer/pulls)
 
-Expansion board for two Nucleo 64 boards (master and slave), developed in 2022 for students studying at Zagreb university of applied sciences.
-It enables quick and easy firmware development without the need of connecting different modules via breadboard and jumpers.
+A simple printed circuit board designed as an example for students as part of the Printed Circuit Board Design course in the undergraduate professional study in mechatronics at Zagreb Univesity of Applied Sciences. The electrical circuit represents a light dimmer implemented using the NE555 precision timer.
 
-## Work in progress
-This project is marked as work in progress and is not ready yet for a full release.
+## Images
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/deanfraj/PTP_Dimmer/main/Images/front_notsoldered.png">
+</p>
 
- ## Features
- - Toggle switches
- - LEDs
- - MCP2551 high-speed CAN transceiver
- - Digital I2C temperature sensor with address selection jumpers
- - Probe clips for easy oscilloscope connections
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/deanfraj/PTP_Dimmer/main/Images/back_notsoldered.png">
+</p>
+
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/deanfraj/PTP_Dimmer/main/Images/front_soldered.png">
+</p>
+
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/deanfraj/PTP_Dimmer/main/Images/PWM_40.png">
+</p>
+
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/deanfraj/PTP_Dimmer/main/Images/PWM_80.png">
+</p>
  
- ## Folder structure
-    .
-    ├── ...
-    ├── 3d models               # 3D models of components
-    ├── Images                  # Images of the project
-    ├── KiCAD files             # Main KiCAD project folder
-    │   ├── Datasheet           # Datasheet collection
-    │   ├── jlcpcb              # jlcpcb production files
-    │   ├── Graphics            # Custom graphics for PCB
-    │   └── gerber              # gerber output folder
-    └── ...
  
